@@ -2,9 +2,7 @@ package com.trafficapp.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.trafficapp.api.TrafficApi
 import com.trafficapp.models.TrafficData
-import com.trafficapp.repo.TrafficRepository
 import com.trafficapp.state.UIState
 import com.trafficapp.usecase.TrafficUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -9,12 +9,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.fair.weather.ui.main.ext.hide
-import com.fair.weather.ui.main.ext.show
 import com.trafficapp.R
 import com.trafficapp.databinding.FragmentTrafficBinding
 import com.trafficapp.state.UIState
 import com.trafficapp.ui.adapter.TrafficAdapter
+import com.trafficapp.ui.ext.hide
+import com.trafficapp.ui.ext.show
 
 class TrafficFragment : Fragment() {
     companion object {

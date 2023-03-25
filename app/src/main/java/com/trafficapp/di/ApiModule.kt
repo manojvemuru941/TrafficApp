@@ -27,5 +27,5 @@ class ApiModule {
 
     @Singleton
     @Provides
-    fun provideWeatherApi(retrofit: Retrofit): TrafficApi = retrofit.create(TrafficApi::class.java)
+    fun provideTrafficApi(retrofit: Retrofit): TrafficApi = retrofit.create(TrafficApi::class.java)
 }

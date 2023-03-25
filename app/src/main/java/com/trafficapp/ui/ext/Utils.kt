@@ -1,4 +1,4 @@
-package com.fair.weather.ui.main.ext
+package com.trafficapp.ui.ext
 
 import android.view.View
 
