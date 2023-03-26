@@ -34,6 +34,7 @@ android {
     }
     buildTypes.each {
         it.buildConfigField 'String', 'SERVER_URL', serverUrl
+        it.buildConfigField 'String', 'SERVER_URL_TRAFFIC', serverTrafficUrl
     }
     viewBinding {
         enabled = true
