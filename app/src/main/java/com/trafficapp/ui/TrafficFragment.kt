@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
+import androidx.compose.runtime.collectAsState
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
@@ -42,7 +43,6 @@ class TrafficFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-
         viewModel.loadData()
 
         lifecycleScope.launchWhenResumed {
